@@ -117,6 +117,7 @@ class CommentsList extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
+                //test for LongPress method
                 onLongPress: () {
                   Fluttertoast.showToast(msg: 'No to drugs, yes to tacos ;)');
                 },
